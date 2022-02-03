@@ -1,0 +1,43 @@
+h1{
+    margin-left: 3rem;
+}
+li{
+    list-style: none;
+    margin-left: 2rem;
+    padding-top: 7px;
+}
+.navbar>nav
+{
+display: flex;
+justify-content: space-between;
+}
+ul
+{
+    display: flex;
+}
+img[src="lap.jpeg"]{
+    height:100vh;
+    width: 95vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+} 
+.skill
+{
+    display: flex;
+}
+.footer
+{
+    height:80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer>p
+{
+    font-size: 25px;
+}
+.skill>div
+{
+    text-align: center;
+    margin-top: 1rem;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* html{
+            font-size: 30px;
+        } */
+        .main
+        {
+            font-size: 30px;
+        }
+        .box
+        {
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        .px
+        {
+            width: 200px;
+        }
+        /* vw behave according to screen size */
+        .vw
+        {
+            width: 10vw;
+        }
+            /* em behave accoding to parrent element */
+        .em
+        {
+            width: 10em;
+        }
+        .parent
+        {
+            font-size: 35px;
+        }
+        /* rem behave according to root element is  html defalt size 16px */
+        .rem
+        {
+            width:10rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class ="main"> 
+        <div class="box px">i am 200 px wide
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum earum impedit nihil sed dolor
+          a repellendus vero qui omnis rem minima nemo doloremque, facere ad possimus quis inventore
+          molestiae iste!            
+        </div>
+        <div class="box vw">i am 10 vw wide</div>
+        <div class="parent ">
+        <div class="box em">i am 10 em wide</div>
+    </div>
+        <div class="box rem">
+           i am 10 rem wide
+        </div>
+    </div>
+</body>
+</html>

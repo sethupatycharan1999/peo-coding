@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* universal selector is = *  = star|ending*/
+          *
+        {
+            background-color: orange;
+        }
+        div{
+            color: lightslategrey;
+            font-weight: lighter;
+            font-size: 30px;
+        }
+        .textred{
+            color: limegreen;
+        }
+        .largetext
+        {
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        /* .textred.largetext 
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: orchid;
+        }*/
+     #unique1
+     {
+        font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: orchid;
+     } 
+     h4,h5
+     {
+         color: red;
+     }
+     h5{
+         font-size:35px;
+     }
+     div  p span{
+         color :yellow;
+     }
+a [href="https://nados.io/feed"]{
+    color:rgb(0, 255, 13);
+
+}
+      
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut libero
+         inventore quisquam asperiores
+recusandae at aperiam explicabo aliquid quae praesentium, natus,
+ repellendus eaque nihil tempore sed odio quibusdam sequi deleniti?</p>
+ <p>
+     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati aspernatur
+      distinctio rem, ipsum, sequi vel, iusto laboriosam quod placeat ipsa nam sit odio beatae
+       incidunt amet porro illum corporis. Dicta?
+ </p>
+ <div>
+     <h1>first heading</h1>
+     <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ducimus, ea veniam 
+         accusamus suscipit sapiente quos adipisci corporis atque? Sit quo aut optio iusto, 
+         voluptates alias fuga quibusdam cupiditate quaerat?
+     </p>
+ </div>
+ <br>
+ <!-- class selector -->
+ <h1>class selector</h1>
+ <P class="textred  largetext " id="unique1">
+     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores doloremque sunt quisquam, veritatis nulla minus, 
+     odio necessitatibus, aliquam voluptates 
+     autem velit recusandae dignissimos nam vero numquam laudantium sed iure voluptas.
+ </P>
+ <p class="largetext">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet in animi consequatur 
+     adipisci quam culpa eligendi veritatis vitae! Cum aliquam, sint nostrum sunt accusantium quos
+      veniam a veritatis itaque.
+ </p>
+ <p class="textred">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim molestiae reprehenderit vero 
+     cupiditate omnis odio optio. 
+     Minima maxime sequi dignissimos veniam a atque, voluptate non laborum iure corporis repudiandae. 
+     Facere.
+ </p>
+ <br>
+ <br>
+ <br>
+  <!-- grouping selector -->
+  <h4>hi how are you</h4>
+  <a href="https://github.com/goelabhishek694/learnMERN/tree/main/html/selectorQues" target="_blank"> nados</a>
+  <h5>i am fine</h5>
+  <!-- descendant selector -->
+  <div>
+      <p>
+          <span>i am a children selector</span>
+      </p>
+  </div>
+  <div>
+    <span>
+        <p>i am a decedant</p>
+    </span>
+</div>
+<!-- Attribute selector -->
+<a href="https://nados.io/feed" target="_blank">naos</a>
+<a href="https://www.youtube.com/"target=_blank>youtube</a>
+<a href="https://zoom.us/postattendee?mn=k8pjRqVZO8iD4VdemdNN2By_ZPyoa7JjuOMK.sLWyLpuC2ur_yzWH&id=7"></a>
+</body>
+</html>
