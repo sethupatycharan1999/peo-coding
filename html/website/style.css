@@ -4,7 +4,7 @@ h1{
 li{
     list-style: none;
     margin-left: 2rem;
-    padding-top: 7px;
+    padding-top: 8px;
 }
 .navbar>nav
 {
@@ -40,4 +40,19 @@ img[src="lap.jpeg"]{
 {
     text-align: center;
     margin-top: 1rem;
+}
+a
+{
+    text-decoration: none;
+}
+a:link ,a:visited{
+    color: rgb(190, 26, 26);
+}
+a:hover
+{
+    color: black;
+}
+.skill>div>p
+{
+   padding: 1rem;
 }
